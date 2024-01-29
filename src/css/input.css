@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* --- FONT FACES --- */
+/* young-serif-regular - latin */
+/* ALL THE PUBLIC ASSETS ARE SERVED AT ROOT PATH FOR EXAMPLE:
+    Files in the public directory are served at the root path.
+    Instead of /public/outfit-v11-latin-regular.woff2, use /outfit-v11-latin-regular.woff2.
+ */
+
+@font-face {
+    font-display: swap;
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/young-serif-v2-latin-regular.woff2") format("woff2");
+}
+
+/* outfit-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+/* outfit-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/outfit-v11-latin-600.woff2") format("woff2");
+}
+
+/* outfit-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/outfit-v11-latin-700.woff2") format("woff2");
+}
