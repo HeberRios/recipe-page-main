@@ -2,7 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import "../css/input.css";
 import RecipeIntro from "../components/RecipeIntro.astro";
-import Ingredients from "../components/Ingredients.astro"
+import Ingredients from "../components/Ingredients.astro";
+import Instructions from "../components/Instructions.astro";
 ---
 
 <Layout title="Recipe Page">
@@ -11,6 +12,7 @@ import Ingredients from "../components/Ingredients.astro"
             <img src="./image-omelette.jpeg" alt="omelette image" />
             <RecipeIntro />
             <Ingredients />
+            <Instructions />
         </div>
     </main>
 </Layout>
