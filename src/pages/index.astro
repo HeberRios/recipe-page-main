@@ -8,14 +8,24 @@ import Nutrition from "../components/Nutrition.astro";
 ---
 
 <Layout title="Recipe Page">
-    <main class="bg-white pb-[6rem]">
-        <div class="">
-            <img src="./image-omelette.jpeg" alt="omelette image" />
-            <RecipeIntro />
-            <Ingredients />
-            <Instructions />
-            <Nutrition />
+    <main
+        class="bg-white pb-[6rem] md:w-[75%] lg:w-[50%] m-auto md:rounded-xl md:pb-[2rem] md:my-[6rem] lg:my-[6rem]"
+    >
+        <div class="md:p-[2rem]">
+            <img
+                class="md:rounded-xl"
+                src="./image-omelette.jpeg"
+                alt="omelette image"
+            />
         </div>
+
+        <RecipeIntro />
+
+        <Ingredients />
+
+        <Instructions />
+
+        <Nutrition />
     </main>
 </Layout>
 
