@@ -1,0 +1,31 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section title="Nutrition">
+    <div
+        slot="sectionContent"
+        class="flex flex-col gap-[1.5rem] text-[1.5rem] text-gray-600"
+    >
+        <p class="">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+        </p>
+        <div class="flex pb-[1rem] border-b-[.15rem]">
+            <p class="w-[50%] pl-[3rem]">Calories</p>
+            <span class="w-[50%] text-mule-fawn-700 font-bold">277 kcal</span>
+        </div>
+        <div class="flex pb-[1rem] border-b-[.15rem]">
+            <p class="w-[50%] pl-[3rem]">Carbs</p>
+            <span class="w-[50%] text-mule-fawn-700 font-bold">0g</span>
+        </div>
+        <div class="flex pb-[1rem] border-b-[.15rem]">
+            <p class="w-[50%] pl-[3rem]">Protein</p>
+            <span class="w-[50%] text-mule-fawn-700 font-bold">20g</span>
+        </div>
+        <div class="flex pb-[1rem]">
+            <p class="w-[50%] pl-[3rem]">Fat</p>
+            <span class="w-[50%] text-mule-fawn-700 font-bold">22g</span>
+        </div>
+    </div>
+</Section>
