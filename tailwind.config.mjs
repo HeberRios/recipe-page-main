@@ -5,7 +5,7 @@ export default {
         extend: {
             fontFamily: {
                 outfit: "Outfit",
-                young: "Young Serif",
+                young: '"Young Serif"',
             },
             colors: {
                 "mule-fawn": {
