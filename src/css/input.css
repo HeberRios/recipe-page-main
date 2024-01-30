@@ -25,7 +25,7 @@ img {
     font-family: "Young Serif";
     font-style: normal;
     font-weight: 400;
-    src: url("/young-serif-v2-latin-regular.woff2") format("woff2");
+    src: url("./young-serif-v2-latin-regular.woff2") format("woff2");
 }
 
 /* outfit-regular - latin */
@@ -34,7 +34,7 @@ img {
     font-family: "Outfit";
     font-style: normal;
     font-weight: 400;
-    src: url("/outfit-v11-latin-regular.woff2") format("woff2");
+    src: url("./outfit-v11-latin-regular.woff2") format("woff2");
 }
 
 /* outfit-600 - latin */
@@ -43,7 +43,7 @@ img {
     font-family: "Outfit";
     font-style: normal;
     font-weight: 600;
-    src: url("/outfit-v11-latin-600.woff2") format("woff2");
+    src: url("./outfit-v11-latin-600.woff2") format("woff2");
 }
 
 /* outfit-700 - latin */
@@ -52,5 +52,5 @@ img {
     font-family: "Outfit";
     font-style: normal;
     font-weight: 700;
-    src: url("/outfit-v11-latin-700.woff2") format("woff2");
+    src: url("./outfit-v11-latin-700.woff2") format("woff2");
 }

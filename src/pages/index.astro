@@ -1,10 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "../css/input.css";
+import RecipeIntro from "../components/RecipeIntro.astro";
 ---
 
 <Layout title="Recipe Page">
-    <main></main>
+    <main class="bg-white pb-[6rem]">
+        <div class="">
+            <img src="./image-omelette.jpeg" alt="omelette image" />
+            <RecipeIntro />
+        </div>
+    </main>
 </Layout>
 
 <style></style>

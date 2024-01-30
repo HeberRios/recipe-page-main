@@ -16,8 +16,12 @@ const { title } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
     </head>
-    <body>
+    <body class="bg-mule-fawn-100">
         <slot />
     </body>
 </html>
-<style is:global></style>
+<style is:global>
+    body {
+        font-family: "Outfit";
+    }
+</style>
