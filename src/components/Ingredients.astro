@@ -1,0 +1,31 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section title="Ingredients">
+    <div slot="sectionContent" class="pb-[3rem] border-b-[.15rem]">
+        <ul
+            class="flex flex-col gap-[1rem] list-disc list-inside marker:text-mule-fawn-700
+		[&>li]:text-[1.5rem] [&>li]:text-gray-600 [&>li>span]:pl-[1rem] [&>li]:pl-[1.5rem]"
+        >
+            <li>
+                <span> 2-3 large eggs</span>
+            </li>
+            <li>
+                <span> Salt, to taste</span>
+            </li>
+            <li>
+                <span> Pepper, to taste</span>
+            </li>
+            <li>
+                <span> 1 tablespoon of butter or oil</span>
+            </li>
+            <li>
+                <span>
+                    Optional fillings: cheese, diced vegetables, cooked meats,
+                    herbs
+                </span>
+            </li>
+        </ul>
+    </div>
+</Section>
